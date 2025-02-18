@@ -406,7 +406,7 @@ def ref_merge_contigs(args):
 					#print "Here you should pick Major var:", NucleotidesfromReads[col.reference_pos], col.reference_pos
 				else:
 					##newbase=ref_base.lower()#!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-					newbase='N'
+					newbase='n'
 					string = "Position "
 					string += str(col.reference_pos)
 					string += " has no read coverage. Assigned base as N"
