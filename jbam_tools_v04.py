@@ -409,7 +409,7 @@ def ref_merge_contigs(args):
 					newbase='n'
 					string = "Position "
 					string += str(col.reference_pos)
-					string += " has no read coverage. Assigned base as N"
+					string += " has no read coverage. Assigned base as n"
 					print string
 
 			else:
